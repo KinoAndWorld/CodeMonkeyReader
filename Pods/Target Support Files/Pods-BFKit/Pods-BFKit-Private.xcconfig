@@ -1,0 +1,6 @@
+#include "Pods-BFKit.xcconfig"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/BFKit" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/ARChromeActivity" "${PODS_ROOT}/Headers/Public/BFKit" "${PODS_ROOT}/Headers/Public/CSNotificationView" "${PODS_ROOT}/Headers/Public/FlatUIKit" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/ReactiveCocoa" "${PODS_ROOT}/Headers/Public/ReactiveViewModel" "${PODS_ROOT}/Headers/Public/Realm" "${PODS_ROOT}/Headers/Public/Realm/realm" "${PODS_ROOT}/Headers/Public/TUSafariActivity" "${PODS_ROOT}/Headers/Public/hpple"
+OTHER_LDFLAGS = ${PODS_BFKIT_OTHER_LDFLAGS} -ObjC
+PODS_ROOT = ${SRCROOT}
+SKIP_INSTALL = YES

@@ -1,0 +1,69 @@
+PODS:
+  - AFNetworking (2.5.4):
+    - AFNetworking/NSURLConnection (= 2.5.4)
+    - AFNetworking/NSURLSession (= 2.5.4)
+    - AFNetworking/Reachability (= 2.5.4)
+    - AFNetworking/Security (= 2.5.4)
+    - AFNetworking/Serialization (= 2.5.4)
+    - AFNetworking/UIKit (= 2.5.4)
+  - AFNetworking/NSURLConnection (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.4):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.4)
+  - AFNetworking/Security (2.5.4)
+  - AFNetworking/Serialization (2.5.4)
+  - AFNetworking/UIKit (2.5.4):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ARChromeActivity (1.0.4)
+  - BFKit (1.6.4)
+  - CSNotificationView (0.5.4)
+  - FlatUIKit (1.6.2)
+  - hpple (0.2.0)
+  - Masonry (0.5.3)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - ReactiveViewModel (0.3):
+    - ReactiveCocoa (~> 2.4)
+  - Realm (0.93.2):
+    - Realm/Headers (= 0.93.2)
+  - Realm/Headers (0.93.2)
+  - TUSafariActivity (1.0.4)
+
+DEPENDENCIES:
+  - AFNetworking (~> 2.5.4)
+  - ARChromeActivity (~> 1.0.4)
+  - BFKit
+  - CSNotificationView (~> 0.5.4)
+  - FlatUIKit
+  - hpple (~> 0.2.0)
+  - Masonry (~> 0.5.3)
+  - ReactiveCocoa (~> 2.5)
+  - ReactiveViewModel
+  - Realm
+  - TUSafariActivity (~> 1.0.2)
+
+SPEC CHECKSUMS:
+  AFNetworking: 05edc0ac4c4c8cf57bcf4b84be5b0744b6d8e71e
+  ARChromeActivity: 9064d94803338d3377f3e1013a8e8f4821d7daf1
+  BFKit: 89d12a73859e569a12810fe43e3256189845813a
+  CSNotificationView: 0792f5220163c2befaf1a9716aa3d5a7d6bd4fb1
+  FlatUIKit: 1b41f0d4952ce8d970d8479ce79df54a960242c4
+  hpple: 3b765f96fc2cd56ad1a49aef6f7be5cb2aa64b57
+  Masonry: 9f515466afe48632562342a40a1c224071a1a022
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  ReactiveViewModel: 58918dcbcec2d3151195ab1ed9163c57a8163999
+  Realm: 2fdd0ae74f730e190384e0338d8a0d3654df8220
+  TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
+
+COCOAPODS: 0.37.2
